@@ -51,7 +51,7 @@ func (w *Wallet) CreateWalletShard(walletName string) error {
 			return err
 		}
 
-		f, err := os.Create("./upong/" + w.Address.AddressAsBech32String() + ".txt")
+		f, err := os.Create("./" + walletName + "/" + w.Address.AddressAsBech32String() + ".txt")
 		if err != nil {
 			log.Fatal().Err(err).Msg("error creating file")
 			return err
