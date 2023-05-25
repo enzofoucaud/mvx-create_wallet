@@ -1,12 +1,12 @@
 package main
 
 import (
-	"create_mvx_wallet/mvx"
 	"flag"
 	"os"
 	"strconv"
 	"time"
 
+	"github.com/enzofoucaud/mvx-create_wallet/mvx"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 )

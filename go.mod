@@ -1,4 +1,4 @@
-module create_mvx_wallet
+module github.com/enzofoucaud/mvx-create_wallet
 
 go 1.18
 
@@ -20,7 +20,7 @@ require (
 	github.com/mr-tron/base58 v1.2.0 // indirect
 	github.com/multiversx/concurrent-map v0.1.4 // indirect
 	github.com/multiversx/mx-chain-core-go v1.1.33 // indirect
-	github.com/multiversx/mx-chain-crypto-go v1.2.6 // indirect
+	github.com/multiversx/mx-chain-crypto-go v1.2.5 // indirect
 	github.com/multiversx/mx-chain-go v1.4.15 // indirect
 	github.com/multiversx/mx-chain-logger-go v1.0.11 // indirect
 	github.com/multiversx/mx-chain-p2p-go v1.0.10 // indirect
