@@ -11,7 +11,7 @@ This tool allows you to retrieve a wallet containing the specified name.
 ## Installation
 
 ```bash
-go get github.com/multivers3x/mvx-create_wallet
+go get github.com/enzofoucaud/mvx-create_wallet
 ```
 
 ## Commands
