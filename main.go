@@ -54,8 +54,7 @@ func main() {
 	*/
 	var i int
 	for {
-		w := &mvx.Wallet{}
-		err := w.CreateWalletShard(*walletName)
+		err := mvx.CreateWalletShard(*walletName)
 		if err != nil {
 			log.Fatal().Err(err).Msg("error creating wallet")
 		}
