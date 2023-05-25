@@ -1,11 +1,11 @@
 package mvx
 
 import (
-	"create_mvx_wallet/mvx_api"
 	"os"
 	"strconv"
 	"strings"
 
+	"github.com/enzofoucaud/mvx-create_wallet/mvx_api"
 	"github.com/multiversx/mx-sdk-go/core"
 	"github.com/multiversx/mx-sdk-go/interactors"
 	"github.com/rs/zerolog/log"
